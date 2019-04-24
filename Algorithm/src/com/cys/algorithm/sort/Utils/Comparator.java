@@ -1,4 +1,4 @@
-package com.cys.algorithm.sort;
+package com.cys.algorithm.sort.Utils;
 
 import java.util.Arrays;
 
