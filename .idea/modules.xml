@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/Algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/_Java_.iml" filepath="$PROJECT_DIR$/_Java_.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Login/web/WEB-INF/tmall.iml" filepath="$PROJECT_DIR$/Login/web/WEB-INF/tmall.iml" />
     </modules>
   </component>
 </project>
