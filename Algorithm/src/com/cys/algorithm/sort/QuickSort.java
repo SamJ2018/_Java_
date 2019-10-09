@@ -8,7 +8,7 @@ import java.util.Date;
  * @apiNote
  * @since 2019-10-05-11:23 PM
  **/
-public class quickSort {
+public class QuickSort{
 
     public static void qSort(int[] arr, int lo, int hi) {
         if (lo >= hi) return;

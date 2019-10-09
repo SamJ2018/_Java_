@@ -1,5 +1,7 @@
 package com.cys.algorithm.sort;
 
+import com.cys.algorithm.sort.Utils.Util;
+
 /**
  * @author sam
  * @apiNote
@@ -22,16 +24,26 @@ public class ShellSort {
         }
     }
 
+    static void sSort2(int[] arr) {
+        for (int gap = arr.length / 2; gap > 0; gap /= 2) {
+            for (int i = gap; i < arr.length; i++) {
+                int j = i;
+                int temp = arr[j];
+                if (arr[j] < arr[j - gap]) {
+                    while (j - gap >= 0 && temp < arr[j - gap]) {
+                        arr[j] = arr[j - gap];
+                        j -= gap;
+                    }
+                    arr[j] = temp;
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
-        int[] arr = new int[10];
-        for (int i = 0; i < 10; i++) {
-            arr[i] = (int) (Math.random() * 1000);
-        }
-
-        sSort(arr);
-
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
+        int[] arr = Util.getArr();
+        Util.runBefore();
+        sSort2(arr);
+        Util.runAfter();
     }
 }
