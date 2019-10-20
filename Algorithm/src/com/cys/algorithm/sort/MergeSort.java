@@ -25,7 +25,7 @@ public class MergeSort {
         while (i <= mid) list.add(arr[i++]);
         while (j <= r) list.add(arr[j++]);
         for (i = l, j = 0; j < list.size(); j++, i++) arr[i] = list.get(j);
-    }
+    }//额外空间复杂度O(n) 时间复杂度 2T(n/2)+O(n)=O(nlogn)
 
 
     public static void main(String[] args) {

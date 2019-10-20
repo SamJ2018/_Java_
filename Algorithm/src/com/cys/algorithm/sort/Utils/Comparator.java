@@ -5,8 +5,13 @@ import java.util.Arrays;
 public class Comparator {
     /**
      * 测试排序算法专用
-     * 先定义一个绝对正确的方法
-     * 拷贝到另一个数组，比较两个方法产生的数组的值是否一致
+     * 0，有一个你想要测的方法a，
+     * 1，实现一个绝对正确但是复杂度不好的方法b，
+     * 2，实现一个随机样本产生器
+     * 3，实现比对的方法
+     * 4，把方法a和方法b比对很多次来验证方法a是否正确。
+     * 5，如果有一个样本使得比对出错，打印样本分析是哪个方法出 错
+     * 6，当样本数量很多时比对测试依然正确，可以确定方法a已经 正确。
      */
     public static void Comparator(int[] arr) {
         Arrays.sort(arr);
@@ -63,7 +68,6 @@ public class Comparator {
         if(arr==null){
             return;
         }
-
        for (int i = 0; i < arr.length; i++) {
            System.out.println(arr[i]+" ");
        }

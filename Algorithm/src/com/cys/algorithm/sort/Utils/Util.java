@@ -12,6 +12,7 @@ import java.util.Properties;
 public class Util {
 
     public static void Swap(int[] arr, int i, int j) {
+        if(arr[i]==arr[j]) return;
         arr[i] = arr[i] ^ arr[j];
         arr[j] = arr[i] ^ arr[j];
         arr[i] = arr[i] ^ arr[j];

@@ -21,13 +21,29 @@ public class BubbleSort {
         }
     }//for
 
+    public static void dualBubbleSort(int[] arr) {
+        int k = 0, i, j;
+        boolean sorted;
+
+        do {
+            for (i = k, sorted = false; i < arr.length - k - 1; ++i) {
+                if (arr[i + 1] < arr[i]) Util.Swap(arr, i + 1, i);
+                sorted = true;
+            }
+            for (j = i - 1, sorted = false; j >= k + 1; --j) {
+                if (arr[j] < arr[j - 1]) Util.Swap(arr, j, j - 1);
+                sorted = true;
+            }
+            ++k;
+        } while (sorted);
+    }
+
 
     public static void main(String[] args) {
 
         int testTime = 500000;
         int maxSize = 100;
         int maxValue = 100;
-
 
         boolean succeed = true;
 
@@ -43,12 +59,13 @@ public class BubbleSort {
                 break;
             }
         }//for
-        System.out.println(succeed ? "Nice!" : "fucking fucked!");
+        System.out.println(succeed ? "Nice!" : "wrong ans");
         int[] arr = Comparator.generateRandomArray(maxSize, maxValue);
 
         Comparator.printArray(arr);
 //        bubbleSort(arr);
-        BubbleSort_2.bubbleSort2(arr,arr.length);
+//        BubbleSort_2.bubbleSort2(arr, arr.length);
+        dualBubbleSort(arr);
         Comparator.printArray(arr);
     }
 
