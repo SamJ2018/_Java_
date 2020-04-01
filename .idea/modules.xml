@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/01.iml" filepath="$PROJECT_DIR$/.idea/01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SourceAnalyze/SourceAnalyze.iml" filepath="$PROJECT_DIR$/SourceAnalyze/SourceAnalyze.iml" />
       <module fileurl="file://$PROJECT_DIR$/_Java_.iml" filepath="$PROJECT_DIR$/_Java_.iml" />
       <module fileurl="file://$PROJECT_DIR$/lang/lang.iml" filepath="$PROJECT_DIR$/lang/lang.iml" />
     </modules>
