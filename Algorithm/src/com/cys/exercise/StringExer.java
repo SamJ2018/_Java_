@@ -6,6 +6,7 @@ package com.cys.exercise;
  * @create 2019-07-31-7:38 AM
  **/
 public class StringExer {
+
     public static void main(String[] args) {
       /*  String[] strs = {"sjd", "abcas", "zdhs", "bcjsh", "dhjye"};
         sortArrayStr(strs);*/
@@ -39,8 +40,9 @@ public class StringExer {
 
         for (int i = 0; i < sub.length(); i++) {
             for (int x = 0, y = sub.length() - i; y != sub.length() + 1; ++y, ++x) {
-                if (parent.contains(retStr = sub.substring(x, y)))
+                if (parent.contains(retStr = sub.substring(x, y))) {
                     return retStr;
+                }
             }
         }
         return retStr;
@@ -54,8 +56,12 @@ public class StringExer {
      */
     private static String myTrim(String needTrim) {
         int start = 0, end = needTrim.length() - 1;
-        while (start < end && needTrim.charAt(start) == ' ') ++start;
-        while (start < end && needTrim.charAt(end) == ' ') --end;
+        while (start < end && needTrim.charAt(start) == ' ') {
+            ++start;
+        }
+        while (start < end && needTrim.charAt(end) == ' ') {
+            --end;
+        }
 
         return needTrim.substring(start, end + 1);
     }
@@ -96,10 +102,11 @@ public class StringExer {
         }
         System.out.print("[");
         for (int i = 0; i < strs.length; i++) {
-            if (i == strs.length - 1)
+            if (i == strs.length - 1) {
                 System.out.print(strs[i] + "]");
-            else
+            } else {
                 System.out.print(strs[i] + ",");
+            }
         }
     }
 

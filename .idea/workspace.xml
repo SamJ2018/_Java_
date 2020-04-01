@@ -1,15 +1,428 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9dca7b38-773d-406d-b11e-cbae14eaab65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/basic/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/basic/tricky/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/basic/tricky/Tricky1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/basic/位运算/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/cys/exercise/Hex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/cys/exercise/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/src/com/cys/exercise/t1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang/src/java8/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang/src/thread/consumer_product/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang/src/thread/consumer_product/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang/src/thread/consumer_product/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang/src/thread/consumer_product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang/src/thread/consumer_product/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e967ba9-677a-4e56-8a83-9e1d0f8318d0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e967ba9-677a-4e56-8a83-9e1d0f8318d0/storage_v2/_src_/schema/myemployees.WYNQeQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e967ba9-677a-4e56-8a83-9e1d0f8318d0/storage_v2/_src_/schema/myemployees.WYNQeQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e967ba9-677a-4e56-8a83-9e1d0f8318d0/storage_v2/_src_/schema/smazon.MkFryg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e967ba9-677a-4e56-8a83-9e1d0f8318d0/storage_v2/_src_/schema/smazon.MkFryg.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e967ba9-677a-4e56-8a83-9e1d0f8318d0/storage_v2/_src_/schema/students.mMXRbw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e967ba9-677a-4e56-8a83-9e1d0f8318d0/storage_v2/_src_/schema/students.mMXRbw.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e967ba9-677a-4e56-8a83-9e1d0f8318d0/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e967ba9-677a-4e56-8a83-9e1d0f8318d0/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/a1/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/a1/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/CountSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/CountSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/src/com/cys/exercise/StringExer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/src/com/cys/exercise/StringExer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/lang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lang/lang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/src/java8/exer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lang/src/java8/exer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang/src/test/java8/lambda_1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/lang/src/test/java8/lambda_1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/META-INF/Algorithm.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/META-INF/Algorithm.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/cys/algorithm/a1/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/cys/algorithm/a1/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/cys/algorithm/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/cys/algorithm/graph/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/cys/algorithm/sort/CountSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/cys/algorithm/sort/CountSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/cys/exercise/StringExer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/cys/exercise/StringExer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/PredictTheWinner_486.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/hashing/hashing_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/AddBinary_67.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/AddTwoNumbers_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/Anagrams_49.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/BinaryTreeInorderTraversal_94.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ClimbingStairs_70.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/CombinationSumII_40.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/CombinationSum_39.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/Combinations_77.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ContainerWithMostWater_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/CountAndSay_38.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/DecodeWays_91.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/DivideTwoIntegers_29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/EditDistance_72.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/FirstMissingPositive_41.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/FourSum_18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/GenerateParentheses_22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/GrayCode_89.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ImplementStrStr_28.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/InsertInterval_57.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/IntegerToRoman_12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/InterleavingString_97.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/JumpGameII_45.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/JumpGame_55.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/LargestRectangleInHistogram_84.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/LengthOfLastWord_58.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/LetterCombinationsOfAPhoneNumber_17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/LongestCommonPrefix_14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/LongestPalindromicSubstring_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/LongestSubstringWithoutRepeatingCharacters_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/LongestValidParentheses_32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/MaximalRectangle_85.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/MaximumSubarray_53.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/MedianOfTwoSortedArrays_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/MergeIntervals_56.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/MergeSortedArray_88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/MergeTwoSortedLists_21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/MergekSortedLists_23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/MinimumPathSum_64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/MinimumWindowSubstring_76.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/NQueensII_52.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/NQueens_51.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/NextPermutation_31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/PalindromeNumber_09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/PartitionList_86.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/PermutationSequence_60.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/PermutationsII_47.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/Permutations_46.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/PlusOneLinkedList_369$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/PlusOneLinkedList_369.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/PlusOne_66.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/PowXN_50.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/RecoverBinarySearchTree_99.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/RegularExpressionMatching_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/RemoveDuplicatesFromSortedArrayII_80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/RemoveDuplicatesFromSortedArray_26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/RemoveDuplicatesFromSortedListII_82.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/RemoveDuplicatesFromSortedList_83.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/RemoveElement_27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/RemoveNthNodeFromEndOfList_19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/RestoreIPAddresses_93.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ReverseInteger_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ReverseLinkedListII_92.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ReverseNodesInKGroup_25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/RomanToInteger_13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/RotateImage_48.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/RotateList_61.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SameTree_100.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ScrambleString_87.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SearchA2DMatrix_74.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SearchForARange_34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SearchInRotatedSortedArrayII_81.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SearchInRotatedSortedArray_33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SearchInsertPosition_35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SetMatrixZeroes_73.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SimplifyPath_71.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SinglyLinkedList/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SortColors_75.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SpiralMatrixII_59.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SpiralMatrix_54.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SqrtX_69.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/StringToInteger_atoi_08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SubsetsII_90.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/Subsets_78.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SubstringWithConcatenationOfAllWords_30.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SudokuSolver_37.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/SwapNodesInPairs_24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/TextJustification_68.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ThreeSumClosest_16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ThreeSum_15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/TrappingRainWater_42.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/TwoSum_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/UniqueBinarySearchTreesII_95.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/UniqueBinarySearchTrees_96.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/UniquePathsII_63.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/UniquePaths_62.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ValidNumber_65.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ValidParentheses_20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ValidSudoku_36.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ValidateBinarySearchTree_98.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/WildcardMatching_44.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/WordSearch_79.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package1/ZigZagConversion_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BalancedBinaryTree_110.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BestTimeToBuyAndSellStockIII_123.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BestTimeToBuyAndSellStockII_122.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BestTimeToBuyAndSellStockIV_188.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BestTimeToBuyAndSellStock_121.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BinarySearchTreeIterator_173.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BinaryTreeLevelOrderTraversal2_107.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BinaryTreeLevelOrderTraversal_102.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BinaryTreeMaximumPathSum_124.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BinaryTreePostorderTraversal_145.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BinaryTreePreorderTraversal_144.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BinaryTreeRightSideView_199.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BinaryTreeUpsideDown_156.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/BinaryTreeZigzagLevelOrderTraversal_103.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/Candy_135.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/CloneGraph_133.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/CombineTwoTables_175.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/CompareVersionNumbers_165.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ConsecutiveNumbers_180.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ConstructBinaryTreeFromInorderAndPostorderTraversal_106.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ConstructBinaryTreeFromPreorderAndInorderTraversal_105.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ConvertSortedArrayToBinarySearchTree_108.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ConvertSortedListToBinarySearchTree_109.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/CopyListWithRandomPointer_138.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/CustomersWhoNeverOrder_183.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/DeleteDuplicateEmails_196.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/DepartmentHighestSalary_184.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/DepartmentTopThreeSalaries_185.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/DistinctSubsequences_115.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/DungeonGame_174.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/DuplicateEmails_182.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/EmployeesEarningMoreThanTheirManagers_181.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/EvaluateReversePolishNotation_150.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ExcelSheetColumnNumber_171.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ExcelSheetColumnTitle_168.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/FactorialTrailingZeroes_172.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/FindMinimumInRotatedSortedArrayII_154.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/FindMinimumInRotatedSortedArray_153.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/FindPeakElement_162.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/FlattenBinaryTreeToLinkedList_114.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/FractionToRecurringDecimal_166.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/GasStation_134.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/HouseRobber_198.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/InsertionSortList_147.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/IntersectionOfTwoLinkedLists_160.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/LRUCache_146.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/LargestNumber_179.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/LinkedListCycleII_142.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/LinkedListCycle_141.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/LongestConsecutiveSequence_128.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/LongestSubstringWithAtMostTwoDistinctCharacters_159.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/MajorityElement_169.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/MaxPointsOnALine_149.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/MaximumDepthOfBinaryTree_104.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/MaximumGap_164.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/MaximumProductSubarray_152.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/MinStack_155.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/MinimumDepthOfBinaryTree_111.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/MissingRanges_163.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/NthHighestSalary_177.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/NumberOf1Bits_191.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/NumberOfIslands_200.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/OneEditDistance_161.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/PalindromePartitioningII_132.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/PalindromePartitioning_131.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/PascalsTriangleII_119.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/PascalsTriangle_118.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/PathSumII_113.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/PathSum_112.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/PopulatingNextRightPointersInEachNodeII_117.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/PopulatingNextRightPointersInEachNode_116.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/RankScores_178.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ReadNCharactersGivenRead4II_158.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ReadNCharactersGivenRead4_157.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ReorderList_143.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/RepeatedDNASequences_187.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ReverseBits_190.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ReverseWordsInAStringII_186.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ReverseWordsInAString_151.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/RisingTemperature_197.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/RotateArray_189.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/SecondHighestSalary_176.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/SingleNumberII_137.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/SingleNumber_136.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/SortList_148.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/SumRootToLeafNumbers_129.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/SurroundedRegions_130.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/SymmetricTree_101.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/TenthLine_195.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/TransposeFile_194.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/Triangle_120.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/TwoSumIIIDataStructureDesign_170.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/TwoSumIIInputArrayIsSorted_167.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ValidPalindrome_125.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/ValidPhoneNumbers_193.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/WordBreakII_140.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/WordBreak_139.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/WordFrequency_192.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/WordLadderII_126.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package2/WordLadder_127.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/AddAndSearchWordDataStructureDesign_211.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/AddDigits_258.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/AlienDictionary_269.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/BasicCalculatorII_227.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/BasicCalculator_224.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/BestMeetingPoint_296.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/BinaryTreeLongestConsecutiveSequence_298.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/BinaryTreePaths_257.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/BitwiseANDofNumbersRange_201.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/BullsAndCows_299.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ClosestBinarySearchTreeValueII_272.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ClosestBinarySearchTreeValue_270.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/CombinationSumIII_216.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ContainsDuplicateIII_220.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ContainsDuplicateII_219.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ContainsDuplicate_217.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/CountCompleteTreeNodes_222.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/CountPrimes_204.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/CountUnivalueSubtrees_250.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/CourseScheduleII_210.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/CourseSchedule_207.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/DeleteNodeInALinkedList_237.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/DifferentWaysToAddParentheses_241.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/EncodeAndDecodeStrings_271.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ExpressionAddOperators_282.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/FactorCombinations_254.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/FindMedianFromDataStream_295.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/FindTheCelebrity_277.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/FindTheDuplicateNumber_287.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/FirstBadVersion_278.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/Flatten2DVector_251.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/FlipGameII_294.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/FlipGame_293.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/GameOfLife_289.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/GraphValidTree_261.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/GroupShiftedStrings_249.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/HIndexII_275.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/HIndex_274.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/HappyNumber_202.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/HouseRobberII_213.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ImplementQueueUsingStacks_232.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ImplementStackUsingQueues_225.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ImplementTriePrefixTree_208.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/InorderSuccessorInBST_285.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/IntegerToEnglishWords_273.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/InvertBinaryTree_226.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/IsomorphicStrings_205.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/KthLargestElementInAnArray_215.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/KthSmallestElementInABST_230.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/LongestIncreasingSubsequence_300.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/LowestCommonAncestorOfABinarySearchTree_235.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/LowestCommonAncestorOfABinaryTree_236.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/MajorityElementII_229.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/MaximalSquare_221.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/MeetingRoomsII_253.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/MeetingRooms_252.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/MinimumSizeSubarraySum_209.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/MissingNumber_268.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/MoveZeroes_283.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/NimGame_292.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/NumberOfDigitOne_233.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/PaintFence_276.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/PaintHouseII_265.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/PaintHouse_256.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/PalindromeLinkedList_234.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/PalindromePermutationII_267.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/PalindromePermutation_266.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/PeekingIterator_284.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/PerfectSquares_279.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/PowerOfTwo_231.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ProductOfArrayExceptSelf_238.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/RectangleArea_223.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/RemoveLinkedListElements_203.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ReverseLinkedList_206.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/SearchA2DMatrixII_240.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/SerializeAndDeserializeBinaryTree_297.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ShortestPalindrome_214.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ShortestWordDistanceIII_245.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ShortestWordDistanceII_244.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ShortestWordDistance_243.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/SingleNumberIII_260.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/SlidingWindowMaximum_239.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/StrobogrammaticNumberIII_248.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/StrobogrammaticNumberII_247.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/StrobogrammaticNumber_246.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/SummaryRanges_228.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/TheSkylineProblem_218.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ThreeSumSmaller_259.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/TripsAndUsers_262.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/UglyNumberII_264.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/UglyNumber_263.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/UniqueWordAbbreviation_288.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ValidAnagram_242.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/VerifyPreorderSequenceInBinarySearchTree_255.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/WallsAndGates_286.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/WiggleSort_280.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/WordPatternII_291.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/WordPattern_290.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/WordSearchII_212.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package3/ZigzagIterator_281.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/AdditiveNumber_306.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/BestTimeToBuyAndSellStockWithCooldown_309.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/BinaryTreeVerticalOrderTraversal_314.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/BulbSwitcher_319.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/BurstBalloons_312.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/CoinChange_322.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/CountOfRangeSum_327.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/CountOfSmallerNumbersAfterSelf_315.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/CountingBits_338.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/CreateMaximumNumber_321.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/DesignTicTacToe_348.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/FlattenNestedListIterator_341.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/GeneralizedAbbreviation_320.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/HouseRobberIII_337.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/IncreasingTripletSubsequence_334.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/IntegerBreak_343.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/IntersectionOfTwoArrays_349.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/LargestBSTSubtree_333.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/LongestIncreasingPathInAMatrix_329.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/LongestSubstringWithAtMostKDistinctCharacters_340.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/MaximumProductOfWordLengths_318.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/MaximumSizeSubarraySumEqualsk_325.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/MinimumHeightTrees_310.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/MovingAverageFromDataStream_346.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/NestedListWeightSum_339.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/NumberOfConnectedComponentsInAnUndirectedGraph_323.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/NumberOfIslandsII_305.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/OddEvenLinkedList_328.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/PalindromePairs_336.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/PatchingArray_330.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/PowerOfFour_342.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/PowerOfThree_326.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/RangeSumQuery2DImmutable_304.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/RangeSumQuery2DMutable_308.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/RangeSumQueryImmutable_303.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/RangeSumQueryMutable_307.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/ReconstructItinerary_332.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/RemoveDuplicateLetters_316.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/RemoveInvalidParentheses_301.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/ReverseString_344.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/ReverseVowelsOfAString_345.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/SelfCrossing_335.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/ShortestDistanceFromAllBuildings_317.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/SmallestRectangleEnclosingBlackPixels_302.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/SparseMatrixMultiplication_311.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/SuperUglyNumber_313.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/TopKFrequentElements_347.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/VerifyPreorderSerializationOfABinaryTree_331.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/cys/leetcode/package4/WiggleSortII_324.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/META-INF/lang.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/Myfun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/Myfun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/Myfun2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/Myfun2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/entity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/entity/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/exer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/exer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/lambda_1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/lambda_1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/lambda_1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/lambda_1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/lambda_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/lambda_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/lambda_2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/lambda_2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/lambda_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/lambda_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/lambda_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/lambda_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/stragety/FilterEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/stragety/FilterEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/stragety/FilterEmployeeByAge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/stragety/FilterEmployeeByAge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/java8/stragety/FilterEmployeeBySalry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/java8/stragety/FilterEmployeeBySalry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lang/test/java8/lambda_1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lang/test/java8/lambda_1Test.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -25,24 +438,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@mysqldb" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@mysqldb" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@mysqldb" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="crowdfunding: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="dev1: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -50,130 +457,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/a1/course1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3944">
-              <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/HeapSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/ShellSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/graph/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2887#2888#0" expanded="true" />
-                <element signature="e#2925#2926#0" expanded="true" />
-                <element signature="e#3299#3300#0" expanded="true" />
-                <element signature="e#3339#3340#0" expanded="true" />
-                <element signature="e#3388#3389#0" expanded="true" />
-                <element signature="e#3421#3422#0" expanded="true" />
-                <element signature="e#3512#3513#0" expanded="true" />
-                <element signature="e#3552#3553#0" expanded="true" />
-                <element signature="e#3615#3616#0" expanded="true" />
-                <element signature="e#3651#3652#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
-              <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/Algorithm/com/cys/algorithm/a1/BinarySearch.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/Algorithm/com/cys/algorithm/a1/Complexity.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/Utils/Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FavoritesManager">
+    <favorites_list name="Java_Project" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -181,117 +474,119 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/lang/src/java8/entity/Employee.java" />
-        <option value="$PROJECT_DIR$/lang/src/java8/stragety/FilterEmoployee.java" />
-        <option value="$PROJECT_DIR$/lang/src/java8/stragety/FilterEmployee.java" />
-        <option value="$PROJECT_DIR$/lang/src/java8/stragety/FilterEmployeeByAge.java" />
-        <option value="$PROJECT_DIR$/lang/src/java8/stragety/FilterEmployeeBySalry.java" />
-        <option value="$PROJECT_DIR$/lang/src/java8/lambda_1.java" />
-        <option value="$PROJECT_DIR$/lang/src/java8/interface/MyFun.kt" />
-        <option value="$PROJECT_DIR$/lang/src/java8/MyFun.java" />
-        <option value="$PROJECT_DIR$/lang/src/java8/lambda_2.java" />
-        <option value="$PROJECT_DIR$/lang/src/java8/exer.java" />
-        <option value="$PROJECT_DIR$/lang/src/java8/lambda_3.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/qSort.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/data.properties" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/ShellSort.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/Utils/data.properties" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/RadixSort.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/quickSort.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/CountSort.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/tree/HuffmanTree.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4e967ba9-677a-4e56-8a83-9e1d0f8318d0/console.sql" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/tree/HuffmanCode.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/tree/bst/BinarySortTree.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/tree/avl/AVLTree.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/graph/Graph.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/a1/recursion.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/a1/norecursion.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/a1/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/a1/Complexity.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/bubblesort/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/Utils/Util.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/InsertSort.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/Utils/Comparator.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/a1/getMax.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/MergeSort.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/a1/course1.java" />
-        <option value="$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/HeapSort.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="765" />
-    <option name="y" value="25" />
-    <option name="width" value="1940" />
-    <option name="height" value="1037" />
-  </component>
+  <component name="ProjectId" id="1YteCrw0ruwf7jhCgdnOyQggOaE" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
+    <property name="settings.editor.splitter.proportion" value="0.31093884" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\missb\Desktop\_Java_\Algorithm\src\com\cys\algorithm\sort\Utils" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.cys.exercise" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cys.algorithm.basic.tricky" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\missb\Desktop\java\LeetCode\src\com\cys\leetcode" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\missb\Desktop\_Java_\Algorithm\src\com\cys\algorithm\sort\Utils" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.baidu.com" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.baidu.com" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cys.algorithm.sort.HeapSort" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cys.algorithm.basic.tricky.Main" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cys.algorithm.sort.*" />
+          <option name="PATTERN" value="com.cys.algorithm.basic.tricky.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +594,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cys.algorithm.sort.MergeSort" />
+    <configuration name="TaxMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cys.algorithm.basic.tricky.TaxMain" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cys.algorithm.sort.*" />
+          <option name="PATTERN" value="com.cys.algorithm.basic.tricky.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,12 +607,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cys.algorithm.a1.Question1" />
+    <configuration name="TickWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cys.algorithm.basic.tricky.TickWindow" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cys.algorithm.a1.*" />
+          <option name="PATTERN" value="com.cys.algorithm.basic.tricky.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,12 +620,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cys.algorithm.a1.Question2" />
+    <configuration name="TicketWindowRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cys.algorithm.basic.tricky.TicketWindowRunnable" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cys.algorithm.a1.*" />
+          <option name="PATTERN" value="com.cys.algorithm.basic.tricky.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,12 +633,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cys.algorithm.a1.getMax" />
+    <configuration name="Tricky1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cys.algorithm.basic.tricky.Tricky1" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cys.algorithm.a1.*" />
+          <option name="PATTERN" value="com.cys.algorithm.basic.tricky.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,18 +646,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TickWindow" />
+      <item itemvalue="Application.TicketWindowRunnable" />
+      <item itemvalue="Application.TaxMain" />
+      <item itemvalue="Application.Tricky1" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.Question2" />
-        <item itemvalue="Application.Question1" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.getMax" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TaxMain" />
+        <item itemvalue="Application.Tricky1" />
+        <item itemvalue="Application.TicketWindowRunnable" />
+        <item itemvalue="Application.TickWindow" />
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\missb\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -383,431 +697,216 @@
       <workItem from="1571541706100" duration="9036000" />
       <workItem from="1571553735997" duration="11285000" />
       <workItem from="1571641500762" duration="581000" />
+      <workItem from="1583766210627" duration="189000" />
+      <workItem from="1583766918419" duration="471000" />
+      <workItem from="1583928581527" duration="170000" />
+      <workItem from="1583928810143" duration="738000" />
+      <workItem from="1583934510637" duration="3122000" />
+      <workItem from="1583937709027" duration="365000" />
+      <workItem from="1583938163615" duration="225000" />
+      <workItem from="1583938433079" duration="604000" />
+      <workItem from="1583939139817" duration="1474000" />
+      <workItem from="1583940682176" duration="5687000" />
+      <workItem from="1584522345450" duration="948000" />
+      <workItem from="1584530685751" duration="3466000" />
+      <workItem from="1584534361418" duration="8588000" />
+      <workItem from="1584543270861" duration="1327000" />
+      <workItem from="1584545183369" duration="2785000" />
+      <workItem from="1584620516678" duration="159000" />
+      <workItem from="1584622121366" duration="132000" />
+      <workItem from="1584622407291" duration="1302000" />
+      <workItem from="1584623977148" duration="3545000" />
+      <workItem from="1584976367847" duration="9081000" />
+      <workItem from="1585095552241" duration="17869000" />
+      <workItem from="1585151875556" duration="17551000" />
+      <workItem from="1585228044007" duration="2769000" />
+      <workItem from="1585234889318" duration="11319000" />
+      <workItem from="1585276372624" duration="147000" />
+      <workItem from="1585325839264" duration="575000" />
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="lambda_2_test2 - 2019.08.14 at 07h 50m 27s.xml">
-      <configuration name="lambda_2.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="exer_test - 2019.08.14 at 08h 17m 36s.xml">
-      <configuration name="exer.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="exer_test6 - 2019.08.14 at 08h 23m 30s.xml">
-      <configuration name="exer.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="exer_test7 - 2019.08.14 at 08h 27m 01s.xml">
-      <configuration name="exer.test7" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="exer_test7 - 2019.08.14 at 08h 27m 25s.xml">
-      <configuration name="exer.test7" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="lambda_3_test1 - 2019.08.14 at 08h 32m 20s.xml">
-      <configuration name="lambda_3.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="lambda_3 - 2019.08.14 at 08h 32m 55s.xml">
-      <configuration name="lambda_3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="lambda_3_test1 - 2019.08.14 at 08h 36m 44s.xml">
-      <configuration name="lambda_3.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="lambda_3_test1 - 2019.08.14 at 08h 38m 48s.xml">
-      <configuration name="lambda_3.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="lambda_3_test1 - 2019.08.14 at 08h 42m 47s.xml">
-      <configuration name="lambda_3.test1" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70847000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14978679" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="simpleUML" order="7" />
-      <window_info id="Learn" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1796875" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25223213" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35825893" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32913166" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32931423" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Key Promoter X" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32931423" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="PlantUML" order="10" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21175584" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18067227" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.16946779" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19607843" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32913166" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Key Promoter X" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lang/src/java8.java" />
-    <entry file="file://$PROJECT_DIR$/LeetCode/src/com/cys/leetcode/PredictTheWinner_486.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/src/java8/stragety/FilterEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/src/java8/stragety/FilterEmployeeByAge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/src/test/java8/lambda_1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Integer.java" />
-    <entry file="file://$PROJECT_DIR$/lang/src/java8/interface/MyFun.kt" />
-    <entry file="file://$PROJECT_DIR$/../halo/src/main/resources/templates/themes/anatole/archives.ftl" />
-    <entry file="file://$PROJECT_DIR$/lang/src/java8/lambda_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2995#2996#0" expanded="true" />
-            <element signature="e#3095#3096#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/src/java8/stragety/FilterEmployeeBySalry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/src/java8/lambda_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/src/java8/exer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/src/java8/lambda_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1531#1532#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/CountSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/tree/HuffmanCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4e967ba9-677a-4e56-8a83-9e1d0f8318d0/console.sql" />
-    <entry file="file://$PROJECT_DIR$/../spring-monkey/tmlh-forum-web/src/main/resources/templates/layout/footer.ftl" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/function/Consumer.java" />
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/tree/bst/BinarySortTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/tree/avl/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#4287#4288#0" expanded="true" />
-            <element signature="e#4342#4343#0" expanded="true" />
-            <element signature="e#4385#4386#0" expanded="true" />
-            <element signature="e#4442#4443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/Utils/data.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/src/java8/MyFun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/src/java8/entity/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/tree/huffmantree/HuffmanTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/RadixSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/a1/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/a1/Complexity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/bubblesort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/Utils/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/bubblesort/BubbleSort_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Algorithm/com/cys/algorithm/a1/getMax.class" />
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/a1/course1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3944">
-          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Algorithm/com/cys/algorithm/a1/BinarySearch.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Algorithm/com/cys/algorithm/a1/Complexity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/sort/Utils/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/src/com/cys/algorithm/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2887#2888#0" expanded="true" />
-            <element signature="e#2925#2926#0" expanded="true" />
-            <element signature="e#3299#3300#0" expanded="true" />
-            <element signature="e#3339#3340#0" expanded="true" />
-            <element signature="e#3388#3389#0" expanded="true" />
-            <element signature="e#3421#3422#0" expanded="true" />
-            <element signature="e#3512#3513#0" expanded="true" />
-            <element signature="e#3552#3553#0" expanded="true" />
-            <element signature="e#3615#3616#0" expanded="true" />
-            <element signature="e#3651#3652#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="277" y="94" key="#Inspections" timestamp="1584537566579">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="277" y="94" key="#Inspections/0.0.1368.872@0.0.1368.872" timestamp="1584537566579" />
+    <state x="277" y="94" key="#Project_Structure" timestamp="1584535906824">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="277" y="94" key="#Project_Structure/0.0.1368.872@0.0.1368.872" timestamp="1584535906824" />
+    <state x="386" y="92" key="#Solution" timestamp="1583938762201">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="386" y="92" key="#Solution/0.0.1368.872@0.0.1368.872" timestamp="1583938762201" />
+    <state x="277" y="94" key="#Vim_Emulation" timestamp="1583935606648">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="277" y="94" key="#Vim_Emulation/0.0.1368.872@0.0.1368.872" timestamp="1583935606648" />
+    <state x="277" y="94" width="810" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585219413988">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="277" y="94" width="810" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.872@0.0.1368.872" timestamp="1585219413988" />
+    <state x="429" y="271" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1584622433970">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="429" y="271" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1368.872@0.0.1368.872" timestamp="1584622433970" />
+    <state x="490" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1585326042089">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="451" y="145" key="#com.intellij.ide.util.MemberChooser.inPresentationMode" timestamp="1584625160429">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="451" y="145" key="#com.intellij.ide.util.MemberChooser.inPresentationMode/0.0.1368.872@0.0.1368.872" timestamp="1584625160429" />
+    <state x="490" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1368.872@0.0.1368.872" timestamp="1585326042089" />
+    <state x="535" y="325" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583765040398">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="535" y="325" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1368.872@0.0.1368.872" timestamp="1583765040398" />
+    <state x="445" y="126" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1583936274972">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="445" y="126" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1368.872@0.0.1368.872" timestamp="1583936274972" />
+    <state x="368" y="381" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584979804258">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="368" y="381" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1368.872@0.0.1368.872" timestamp="1584979804258" />
+    <state x="429" y="158" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585236705609">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="429" y="158" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1368.872@0.0.1368.872" timestamp="1585236705609" />
+    <state x="148" y="184" key="FileChooserDialogImpl" timestamp="1585276508329">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="321" y="200" key="FileChooserDialogImpl.inPresentationMode" timestamp="1584628763929">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="321" y="200" key="FileChooserDialogImpl.inPresentationMode/0.0.1368.872@0.0.1368.872" timestamp="1584628763929" />
+    <state x="148" y="184" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1585276508329" />
+    <state x="496" y="332" key="Github.CreateGistDialog" timestamp="1583928648659">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="496" y="332" key="Github.CreateGistDialog/0.0.1368.872@0.0.1368.872" timestamp="1583928648659" />
+    <state width="1326" height="185" key="GridCell.Tab.0.bottom" timestamp="1585271450956">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1368" height="213" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1584628764995">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1368" height="213" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1368.872@0.0.1368.872" timestamp="1584628764995" />
+    <state width="1326" height="185" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1585271450956" />
+    <state width="1326" height="185" key="GridCell.Tab.0.center" timestamp="1585271450955">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1368" height="213" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1584628764995">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1368" height="213" key="GridCell.Tab.0.center.inPresentationMode/0.0.1368.872@0.0.1368.872" timestamp="1584628764995" />
+    <state width="1326" height="185" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1585271450955" />
+    <state width="1326" height="185" key="GridCell.Tab.0.left" timestamp="1585271450955">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1368" height="213" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1584628764995">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1368" height="213" key="GridCell.Tab.0.left.inPresentationMode/0.0.1368.872@0.0.1368.872" timestamp="1584628764995" />
+    <state width="1326" height="185" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1585271450955" />
+    <state width="1326" height="185" key="GridCell.Tab.0.right" timestamp="1585271450955">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1368" height="213" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1584628764995">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1368" height="213" key="GridCell.Tab.0.right.inPresentationMode/0.0.1368.872@0.0.1368.872" timestamp="1584628764995" />
+    <state width="1326" height="185" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1585271450955" />
+    <state width="1326" height="201" key="GridCell.Tab.1.bottom" timestamp="1585271450388">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="201" key="GridCell.Tab.1.bottom/0.0.1368.872@0.0.1368.872" timestamp="1585271450388" />
+    <state width="1326" height="201" key="GridCell.Tab.1.center" timestamp="1585271450385">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="201" key="GridCell.Tab.1.center/0.0.1368.872@0.0.1368.872" timestamp="1585271450385" />
+    <state width="1326" height="201" key="GridCell.Tab.1.left" timestamp="1585271450385">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="201" key="GridCell.Tab.1.left/0.0.1368.872@0.0.1368.872" timestamp="1585271450385" />
+    <state width="1326" height="201" key="GridCell.Tab.1.right" timestamp="1585271450386">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="201" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1585271450386" />
+    <state width="214" height="477" key="HiddenNamespacesPopup" timestamp="1585213394590">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="214" height="477" key="HiddenNamespacesPopup/0.0.1368.872@0.0.1368.872" timestamp="1585213394590" />
+    <state x="67" y="111" width="1075" height="715" key="SettingsEditor" timestamp="1585261069316">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="97" y="77" key="SettingsEditor.inPresentationMode" timestamp="1584541729683">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="97" y="77" key="SettingsEditor.inPresentationMode/0.0.1368.872@0.0.1368.872" timestamp="1584541729683" />
+    <state x="67" y="111" width="1075" height="715" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1585261069316" />
+    <state x="454" y="268" key="SimpleOpenTaskDialog" timestamp="1584537175306">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="454" y="268" key="SimpleOpenTaskDialog/0.0.1368.872@0.0.1368.872" timestamp="1584537175306" />
+    <state x="414" y="185" width="591" height="524" key="StructurePopup" timestamp="1584536011730">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="414" y="185" width="591" height="524" key="StructurePopup/0.0.1368.872@0.0.1368.872" timestamp="1584536011730" />
+    <state width="498" height="398" key="SwitcherDM" timestamp="1584534789423">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="498" height="398" key="SwitcherDM/0.0.1368.872@0.0.1368.872" timestamp="1584534789422" />
+    <state x="401" y="75" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1584531130004">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="401" y="75" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1368.872@0.0.1368.872" timestamp="1584531130004" />
+    <state x="527" y="132" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1585213297210">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="527" y="132" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1368.872@0.0.1368.872" timestamp="1585213297210" />
+    <state x="93" y="93" width="1181" height="685" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584535856377">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="93" y="93" width="1181" height="685" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1368.872@0.0.1368.872" timestamp="1584535856377" />
+    <state x="89" y="93" width="1181" height="685" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1583936134565">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="89" y="93" width="1181" height="685" key="com.intellij.history.integration.ui.views.RecentChangeDialog/0.0.1368.872@0.0.1368.872" timestamp="1583936134565" />
+    <state x="383" y="329" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583940934240">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="383" y="329" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1368.872@0.0.1368.872" timestamp="1583940934240" />
+    <state x="416" y="123" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584536178386">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="416" y="123" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1368.872@0.0.1368.872" timestamp="1584536178386" />
+    <state x="456" y="138" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584536369590">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="456" y="138" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1368.872@0.0.1368.872" timestamp="1584536369590" />
+    <state x="399" y="266" key="extract.method.dialog" timestamp="1584980530611">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="399" y="266" key="extract.method.dialog/0.0.1368.872@0.0.1368.872" timestamp="1584980530611" />
+    <state x="363" y="35" width="779" height="801" key="find.popup" timestamp="1583936499122">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="363" y="35" width="779" height="801" key="find.popup/0.0.1368.872@0.0.1368.872" timestamp="1583936499122" />
+    <state x="50" y="46" key="new project wizard" timestamp="1585326458502">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="50" y="46" key="new project wizard/0.0.1368.872@0.0.1368.872" timestamp="1585326458502" />
+    <state x="362" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1585213018349">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="362" y="199" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1585213018349" />
   </component>
   <component name="ideajad">
     <property name="annotate" value="false" />
@@ -851,77 +950,6 @@
     <property name="spaceAfterKeyword" value="false" />
     <property name="splitStringsAtNewline" value="false" />
     <property name="useTabs" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

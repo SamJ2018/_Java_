@@ -1,4 +1,5 @@
 package com.cys.algorithm.a1;
+
 /**
  * @author sam
  * @apiNote
@@ -11,17 +12,21 @@ public class BinarySearch {
         System.out.println(binarySearch(arr, 10));
     }
 
-    //二分查找非递归实现
+    /**
+     * 二分查找非递归实现
+     */
     public static int binarySearch(int[] arr, int target) {
         int left = 0, right = arr.length - 1;
-        while (left <= right) { //继续查找
+        while (left <= right) {
+            //继续查找
             int mid = (left + right) >> 1;
-            if (arr[mid] == target)
+            if (arr[mid] == target) {
                 return mid;
-            else if (arr[mid] > target)
+            } else if (arr[mid] > target) {
                 right = mid - 1;
-            else
+            } else {
                 left = mid + 1;
+            }
         }
         return -1;
     }

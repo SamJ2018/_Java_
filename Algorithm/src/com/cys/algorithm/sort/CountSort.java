@@ -12,9 +12,13 @@ public class CountSort {
     public static void cSort(int[] arr) {
         int[] temp = new int[arr.length];
         for (int i = 1; i < arr.length; i++) {
-            for (int j = 0; j < i; j++)
-                if (arr[j] <= arr[i]) temp[i]++;
-                else temp[j]++;
+            for (int j = 0; j < i; j++) {
+                if (arr[j] <= arr[i]) {
+                    temp[i]++;
+                } else {
+                    temp[j]++;
+                }
+            }
         }
         for (int i = 0; i < arr.length; i++) {
             while (temp[i] != i) {
